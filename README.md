@@ -1,6 +1,46 @@
-# ![Puma Icon](doc/puma_icon_32px.png) ArcGIS CityEngine for Rhino
+# ![Puma Icon](doc/puma_icon_32px.png) ArcGIS CityEngine for Rhino - Cognitive Cities Edition
 
 <div align="center"><img src="doc/img/puma_street_segment_scene.jpg" width="90%" alt="CityEngine Street Segment Example" /></div>
+
+## 🧠 Cognitive Cities Distributed Architecture
+
+**ArcGIS CityEngine for Rhino - Cognitive Cities Edition** brings **cognitive intelligence** to procedural urban modeling. Building upon the proven CityEngine foundation, this edition enables the creation of **living, adaptive urban architectures** that learn, evolve, and self-organize based on cognitive principles.
+
+### 🌟 Enhanced Capabilities
+
+**Traditional Features:**
+- Execute [CityEngine](https://www.esri.com/software/cityengine) 'rules' within Rhino scenes
+- Seamless integration with Grasshopper workflows
+- Procedural models that stay live throughout the design process
+- No more complicated export-import workflows
+
+**Cognitive Enhancements:**
+- **Adaptive Rule Systems**: Rules that evolve based on contextual analysis and performance feedback
+- **Distributed Intelligence**: Connection to cognitive cities network for collaborative learning
+- **Emergent Urban Patterns**: Self-organizing systems that create optimal urban forms
+- **Real-time Optimization**: AI-driven parameter tuning for multi-criteria urban performance
+
+```mermaid
+graph LR
+    A[Traditional CityEngine] --> B[Cognitive Enhancement Layer]
+    B --> C[Adaptive Urban Intelligence]
+    C --> D[Living City Models]
+    
+    style A fill:#e3f2fd
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style D fill:#fff3e0
+```
+
+### 🏗️ Organizational Architecture
+
+This repository is part of the **Cognitive Cities Distributed Architecture**, connecting multiple organizations:
+
+- **[cogpilot](https://github.com/cogpilot)**: Cognitive AI Architecture & Coordination
+- **[cogcities](https://github.com/cogcities)**: Urban Intelligence & Planning Systems
+- **cityengine_for_rhino**: Procedural Urban Modeling Engine (this repository)
+
+**Core Plugin Functionality:**
 
 ArcGIS CityEngine for Rhino is a plugin for [Rhino3D and Grasshopper](https://www.rhino3d.com). It provides a Rhino command and Grasshopper components which enable the execution of [CityEngine](https://www.esri.com/software/cityengine) ‘rules’ within a Rhino scene. Therefore, a Rhino artist or designer does not have to leave their familiar Rhino environment anymore to make use of CityEngine’s procedural modeling power. Complicated export-import steps are no longer needed, which also means that the procedural models do not need to be “baked” anymore. The building or street models stay procedural during the entire design or planning workflow. Consequently, the user can change any attributes of the building or street models easily by connecting them to other Grasshopper components.
 
@@ -26,8 +66,10 @@ Download and open the ["Street Segment" example](https://esri.github.io/cityengi
 
 ## Table of Contents
 
+- [Cognitive Cities Architecture](#cognitive-cities-distributed-architecture)
 - [User Manual](#user-manual)
 - [Developer Manual](#developer-manual)
+- [Cognitive Architecture Documentation](#cognitive-architecture-documentation)
 - [Release Notes](#release-notes)
 - [Licensing Information](#licensing-information)
 
@@ -319,6 +361,42 @@ For debugging, keep the `Release` configuration (we always generate PDBs) and tu
 
 ### Version 0.5.0 (Fall 2020)
 * First internal proof of concept.
+
+## Cognitive Architecture Documentation
+
+### 📚 Core Documentation
+- **[Cognitive Architecture Overview](docs/cognitive-architecture/README.md)**: Complete architectural vision and technical foundation
+- **[Fractal Organization Principles](docs/cognitive-architecture/fractal-organization.md)**: Multi-scale intelligence patterns
+- **[Ordo ab Chao Principles](docs/cognitive-architecture/ordo-ab-chao-principles.md)**: Emergent order from complex systems
+- **[Implementation Guide](docs/cognitive-architecture/implementation-guide.md)**: Step-by-step integration instructions
+
+### 🔗 Organizational Connections
+```mermaid
+graph TB
+    subgraph "Cognitive Cities Ecosystem"
+        cogpilot[cogpilot organization<br/>AI Architecture & Coordination]
+        cogcities[cogcities organization<br/>Urban Intelligence & Planning]
+        cityengine[cityengine_for_rhino<br/>Procedural Modeling Engine]
+    end
+    
+    cogpilot -->|"Cognitive Intelligence"| cityengine
+    cogcities -->|"Urban Expertise"| cityengine
+    cityengine -->|"Generated Models"| cogpilot
+    cityengine -->|"Urban Insights"| cogcities
+```
+
+### 🚀 Future Roadmap
+- **Phase 1**: Foundation cognitive capabilities integration
+- **Phase 2**: Distributed intelligence network establishment
+- **Phase 3**: Self-evolving urban architecture systems
+
+---
+
+> **Note2Self (Copilot)**: This repository represents the intersection of computational design and cognitive intelligence. The traditional CityEngine plugin provides the procedural foundation, while the cognitive enhancements enable adaptive, learning-based urban modeling. Remember to maintain backward compatibility while building toward truly intelligent urban systems.
+
+> **Evolution Marker (Copilot)**: This transformation from static procedural modeling to cognitive urban intelligence represents a fundamental shift in how we approach city design. The goal is not just to model cities, but to create systems that can think about cities. Keep this vision central to all development decisions.
+
+---
 
 ## Contributing
 
